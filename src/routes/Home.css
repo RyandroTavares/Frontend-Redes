@@ -1,0 +1,65 @@
+.bodyhome {
+  text-align: center;
+}
+
+.homeul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.homeli {
+  width: calc(33.33% - 20px); /* Ajuste o espaço conforme necessário */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.homeullia {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.homeimg {
+  
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+.homep {
+  margin-bottom: 1em;
+}
+
+.homebutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.homebutton a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.homebutton a {
+  text-decoration: none;
+  color: white;
+}
+
+.homep {
+  margin-bottom: 1em;
+}
